@@ -5,26 +5,24 @@
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #fff url(../images/fundo.png) repeat-x;
+    background: #fff url(../images/fundoTopo.jpg) repeat-x;
 }
 
 #container{
-    width: 750px;
+    width: 800px;
     margin:  0 auto;
-    border: 1px solid red;
 }
 
 #topo {
-    height:  150px;
-    background: url(../images/detalhe-topo.png) no-repeat right top;
-    padding-top: 25px;
-    /*border: 1px solid red;*/
+    height:  115px;
+    padding-top: 5px;
+    border: 1px solid red;
 }
 
 .logo{
-    width:  152px;
-    height: 66px;
-    background: url(../images/logo.png) no-repeat center;
+    width:  154px;
+    height: 50px;
+    background: url(../images/TI-NewsLogo.png) no-repeat center;
     text-indent: -3000px;
 }
 
@@ -36,8 +34,8 @@ ul {
 
 /* Barra de navegação */
 #topo ul{
-    margin-top: 30px;
-    background: #b10333;
+    margin-top: 15px;
+    background: #a3a3a3;
     float: left;
 }
 
@@ -52,7 +50,6 @@ ul {
     line-height: 2.1em;
     text-decoration: none;
     color: #fff;
-    background: url(../images/divisor.png) no-repeat left center;
 }
 
 #topo ul .primeiro a{
@@ -60,7 +57,7 @@ ul {
 }
 
 #topo ul a:hover{
-    color: #69001d ;
+    color: #ba7e1e ;
 }
 
 body.home #navegacao a#home,
@@ -69,6 +66,44 @@ body.internacional #navegacao a#internacional,
 body.fotos #navegacao a#fotos
 {
  color: #fff;
- background: #de003e;
+ background: #d49024;
  cursor: text;
+}
+
+#conteudo{
+    margin-top: 20px;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: red;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin:  0 0 20px 15px;
+    background: blue;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin:  0 0 20px -750px;
+    background: yellow;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
 }
