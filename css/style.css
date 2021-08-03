@@ -16,7 +16,6 @@ body{
 #topo {
     height:  115px;
     padding-top: 5px;
-    border: 1px solid red;
 }
 
 .logo{
@@ -24,6 +23,15 @@ body{
     height: 50px;
     background: url(../images/TI-NewsLogo.png) no-repeat center;
     text-indent: -3000px;
+}
+
+a:link, a:visited{
+    color: #d49024;
+    padding: 2px;
+}
+
+a:hover{
+    color: #e50040;
 }
 
 ul {
@@ -35,8 +43,9 @@ ul {
 /* Barra de navegação */
 #topo ul{
     margin-top: 15px;
-    background: #a3a3a3;
+    background: #c9c9c9;
     float: left;
+    font-size: 16px;
 }
 
 #topo ul li{
@@ -75,30 +84,143 @@ body.fotos #navegacao a#fotos
     background: #f5f5f5;
 }
 
+#lateral{
+    width: 180px;
+    float: left;
+    margin:  0 0 20px -750px;
+}
+
 #primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: red;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
 }
 
 #secundario{
     width: 270px;
     float: left;
     margin:  0 0 20px 15px;
-    background: blue;
 }
 
-#lateral{
-    width: 180px;
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1em;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #d49024;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    color: #fff;
+}
+
+img.img-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #d49024;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #d49024;
+    color: #fff;
+}
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px; 
+}
+
+#lista-noticias li a img{
     float: left;
-    margin:  0 0 20px -750px;
-    background: yellow;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #b10333;
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
 }
 
 #container-rodape{
-    background: #294c71;
-    padding: 20px;
+    background: #000;
+    padding: 10px;
 }
 
 #rodape{
