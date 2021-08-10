@@ -1,228 +1,785 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
+  <meta charset="utf-8">
+  <title>TI News</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News TI</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Logo -->
+  <link href="img/logo.png" rel="icon">
 
+  <!-- Google Fontes -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Bootstrap  -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="home">
-    <!-- Início cointaner -->
-    <div id="container">
+<body>
 
-        <!-- Início topo -->
-        <div id="topo">
-            <h1 class="logo">News TI</h1>
-            <ul id="navegacao">
-                <li class=" primeiro">
-                    <a id="home" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a id="brasil" href="brasil.html">Brasil</a>
-                </li>
-                <li>
-                    <a id="internacional" href="internacional.html">Internacional</a>
-                </li>
-                <li>
-                    <a id="economia" href="economia.html">Economia</a>
-                </li>
-                <li>
-                    <a id="saude" href="saude.html">Saúde</a>
-                </li>
-                <li>
-                    <a id="ciencia" href="ciencia.html">Ciência</a>
-                </li>
-                <li>
-                    <a id="fotos" href="fotos.html">Fotos</a>
-                </li>
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto"><img src="img/TI-NewsLogo2.png" alt="" title="" /></a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#entrevistas">Entrevistas</a></li>
+          <li><a href="#noticias">Notícias</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url('img/intro-carousel/5G3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2> Maior alcance e velocidade - 5G</h2>
+                <p>Quanto tempo levará para o 5G estar disponível em todas as capitais?</p>
+                <a href="https://www.tecmundo.com.br/5g-no-brasil/216356-tempo-levara-5g-disponivel-capitais.htm#:~:text=Quando%20o%205G%20vai%20chegar,pontos%20da%20rede%20no%20Brasil"
+                  class="btn-get-started scrollto">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('img/intro-carousel/nvidia3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>De olho nas promoções</h2>
+                <p>Preços das placas de vídeo devem ficar mais ‘acessíveis’ em breve.</p>
+                <a href="https://www.tecmundo.com.br/produto/220604-precos-placas-video-devem-acessiveis.htm"
+                  class="btn-get-started scrollto">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('img/intro-carousel/xiaomi3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Menor tempo de carga</h2>
+                <p>Xiaomi diz que seu novo carregamento rápido completa bateria do celular em 8 minutos.</p>
+                <a href="https://g1.globo.com/economia/tecnologia/noticia/2021/05/31/xiaomi-diz-que-seu-novo-carregamento-rapido-completa-bateria-do-celular-em-8-minutos.ghtml"
+                  class="btn-get-started scrollto">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('img/intro-carousel/5G3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2> Maior alcance e velocidade - 5G</h2>
+                <p>Quanto tempo levará para o 5G estar disponível em todas as capitais?</p>
+                <a href="https://www.tecmundo.com.br/5g-no-brasil/216356-tempo-levara-5g-disponivel-capitais.htm#:~:text=Quando%20o%205G%20vai%20chegar,pontos%20da%20rede%20no%20Brasil"
+                  class="btn-get-started scrollto">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('img/intro-carousel/nvidia3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>De olho nas promoções</h2>
+                <p>Preços das placas de vídeo devem ficar mais ‘acessíveis’ em breve.</p>
+                <a href="https://www.tecmundo.com.br/produto/220604-precos-placas-video-devem-acessiveis.htm"
+                  class="btn-get-started scrollto">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url('img/intro-carousel/xiaomi3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Menor tempo de carga</h2>
+                <p>Xiaomi diz que seu novo carregamento rápido completa bateria do celular em 8 minutos.</p>
+                <a href="https://g1.globo.com/economia/tecnologia/noticia/2021/05/31/xiaomi-diz-que-seu-novo-carregamento-rapido-completa-bateria-do-celular-em-8-minutos.ghtml"
+                  class="btn-get-started scrollto">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Entrevistas
+    ============================-->
+    <section id="entrevistas">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Entrevistas</h3>
+        </header>
+
+        <div class="row entrevistas-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/BillGates.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://forbes.com.br/carreira/2020/11/bill-gates-ensina-a-responder-as-perguntas-mais-comuns-em-entrevistas-de-emprego/">Bill
+                  Gates</a></h2>
+              <p>
+                Bill Gates ensina a responder às perguntas mais comuns em entrevistas de emprego.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/SteveJobs.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://www.infomoney.com.br/mercados/entrevista-de-steve-jobs-30-anos-atras-mostrava-sua-genialidade-confira/">Steve
+                  Jobs</a></h2>
+              <p>
+                Em 1985, Jobs revelou informações sobre a Apple, sua vida e o futuro da tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/StephenHawking.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://canaltech.com.br/espaco/bbc-libera-a-ultima-entrevista-feita-com-stephen-hawking-110698/">Stephen
+                  Hawking</a></h2>
+              <p>
+                Uma conversa sobre ondas gravitacionais a partir da colisão de estrelas de nêutron.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/BillGates.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://forbes.com.br/carreira/2020/11/bill-gates-ensina-a-responder-as-perguntas-mais-comuns-em-entrevistas-de-emprego/">Bill
+                  Gates</a></h2>
+              <p>
+                Bill Gates ensina a responder às perguntas mais comuns em entrevistas de emprego.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/SteveJobs.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://www.infomoney.com.br/mercados/entrevista-de-steve-jobs-30-anos-atras-mostrava-sua-genialidade-confira/">Steve
+                  Jobs</a></h2>
+              <p>
+                Em 1985, Jobs revelou informações sobre a Apple, sua vida e o futuro da tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/StephenHawking.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://canaltech.com.br/espaco/bbc-libera-a-ultima-entrevista-feita-com-stephen-hawking-110698/">Stephen
+                  Hawking</a></h2>
+              <p>
+                Uma conversa sobre ondas gravitacionais a partir da colisão de estrelas de nêutron.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/BillGates.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://forbes.com.br/carreira/2020/11/bill-gates-ensina-a-responder-as-perguntas-mais-comuns-em-entrevistas-de-emprego/">Bill
+                  Gates</a></h2>
+              <p>
+                Bill Gates ensina a responder às perguntas mais comuns em entrevistas de emprego.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/SteveJobs.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://www.infomoney.com.br/mercados/entrevista-de-steve-jobs-30-anos-atras-mostrava-sua-genialidade-confira/">Steve
+                  Jobs</a></h2>
+              <p>
+                Em 1985, Jobs revelou informações sobre a Apple, sua vida e o futuro da tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/StephenHawking.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://canaltech.com.br/espaco/bbc-libera-a-ultima-entrevista-feita-com-stephen-hawking-110698/">Stephen
+                  Hawking</a></h2>
+              <p>
+                Uma conversa sobre ondas gravitacionais a partir da colisão de estrelas de nêutron.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/BillGates.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://forbes.com.br/carreira/2020/11/bill-gates-ensina-a-responder-as-perguntas-mais-comuns-em-entrevistas-de-emprego/">Bill
+                  Gates</a></h2>
+              <p>
+                Bill Gates ensina a responder às perguntas mais comuns em entrevistas de emprego.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/SteveJobs.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://www.infomoney.com.br/mercados/entrevista-de-steve-jobs-30-anos-atras-mostrava-sua-genialidade-confira/">Steve
+                  Jobs</a></h2>
+              <p>
+                Em 1985, Jobs revelou informações sobre a Apple, sua vida e o futuro da tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="entrevistas-col">
+              <div class="img">
+                <img src="img/Entrevistas/StephenHawking.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a
+                  href="https://canaltech.com.br/espaco/bbc-libera-a-ultima-entrevista-feita-com-stephen-hawking-110698/">Stephen
+                  Hawking</a></h2>
+              <p>
+                Uma conversa sobre ondas gravitacionais a partir da colisão de estrelas de nêutron.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- Entrevistas -->
+
+    <!--==========================
+      Noticias
+    ============================-->
+    <section id="noticias" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Notícias </h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="noticias-flters">
+              <li data-filter="*" class="filter-active">Todas</li>
+              <li data-filter=".filter-app">Nacionais</li>
+              <li data-filter=".filter-card">Internacionais</li>
             </ul>
+          </div>
         </div>
-        <!-- fim topo -->
 
-        <!-- Início conteúdo -->
-        <div id="conteudo">
+        <div class="row noticias-container">
 
-            <div id="primario">
-                <div class="caixa destaque">
-                    <h2>Destaque</h2>
-                    <div class="caixa-conteudo">
-                        <h3>Nova Legislação</h3>
-                        <img class="img-principal" src="./images/taxi.jpg" width="100%">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <a href="nova-legislacao.html">Leia mais!</a>
-                    </div>
-                </div>  
-                
-                <div class="caixa">
-                    <h2>Mundo</h2>
-                    <div class="caixa-conteudo">
-                       <ul id="lista-noticias">
-                           <li>
-                               <a href="">
-                                   <img src="./images/tecnologia.jpg" width="80">
-                                   <h3>Novas tecnologias!</h3>
-                                   <p>
-                                    Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                   </p>
-                               </a>
-                           </li>
-                           <li>
-                            <a href="">
-                                <img src="./images/tecnologia.jpg" width="80">
-                                <h3>Novas tecnologias!</h3>
-                                <p>
-                                 Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="./images/tecnologia.jpg" width="80">
-                                <h3>Novas tecnologias!</h3>
-                                <p>
-                                 Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="./images/tecnologia.jpg" width="80">
-                                <h3>Novas tecnologias!</h3>
-                                <p>
-                                 Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                </p>
-                            </a>
-                        </li>
-                       </ul>
-                    </div>
-                </div>      
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Planetas.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
 
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">A
+                    origem dos planetas</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">Astronomia</a>
+              </div>
             </div>
+          </div>
 
-            <div id="secundario">
-                <div class="caixa entrevista">
-                    <h2>Última entrevista</h2>
-                    <div class="caixa-conteudo">
-                        <h3>Entrevista com Felipe Silva</h3>
-                        <img class="img-principal" src="./images/doutor.jpg" width="100%">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <a href="">Leia mais!</a>
-                    </div>
-                </div>
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/covid.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
 
-                <div class="caixa">
-                    <h2>Notícias recentes</h2>
-                    <div class="caixa-conteudo">
-                       <ul id="lista-noticias">
-                           <li>
-                               <a href="">
-                                   <img src="./images/cidade.jpg" width="80">
-                                   <h3>Novas tecnologias!</h3>
-                                   <p>
-                                    Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                   </p>
-                               </a>
-                           </li>
-                           <li>
-                            <a href="">
-                                <img src="./images/taxi.jpg" width="80">
-                                <h3>Novas tecnologias!</h3>
-                                <p>
-                                 Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="./images/tecnologia.jpg" width="80">
-                                <h3>Novas tecnologias!</h3>
-                                <p>
-                                 Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                </p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="./images/doutor.jpg" width="80">
-                                <h3>Novas tecnologias!</h3>
-                                <p>
-                                 Suspendisse finibus justo sed dolor rhoncus, ac convallis lectus congue.
-                                </p>
-                            </a>
-                        </li>
-                       </ul>
-                    </div>
-                </div>
-
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Recorde
+                    de mortes</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Covid-19</a>
+              </div>
             </div>
+          </div>
 
-            <!-- Início lateral-->
-            <div id="lateral">
-                <div class="caixa">
-                    <h2>Entrevistas</h2>
-                    <div class="caixa-conteudo">
-                        <ul>
-                            <li><a
-                                    href="https://g1.globo.com/globonews/especial-25-anos/noticia/2021/07/19/25-anos-de-globonews-reveja-entrevista-de-renato-machado-com-bill-gates.ghtml">Bill
-                                    Gates</a></li>
-                            <li><a
-                                    href="https://www.infomoney.com.br/mercados/entrevista-de-steve-jobs-30-anos-atras-mostrava-sua-genialidade-confira/">Steve
-                                    Jobs</a></li>
-                            <li><a
-                                    href="https://news.comschool.com.br/presidente-obama-convoca-os-americanos-a-aprenderem-a-programar//">Barack
-                                    Obama</a></li>
-                            <li><a
-                                    href="https://canaltech.com.br/espaco/bbc-libera-a-ultima-entrevista-feita-com-stephen-hawking-110698/">Stephen
-                                    Hawking</a></li>
-                            <li><a
-                                    href="https://www.correiobraziliense.com.br/euestudante/trabalho--formacao/2020/08/4868634-as-licoes-de-uma-executiva-na-pandemia.html/">Luiza
-                                    Trajano</a></li>
-                            <li><a
-                                    href="https://www.infomoney.com.br/mercados/embraer-sera-maior-do-que-foi-no-passado-diz-presidente/">Francisco
-                                    G. Neto</a></li>
-                            <li><a
-                                    href="https://blog.br.playstation.com/2020/03/10/perguntas-e-respostas-com-hermen-hulst-entrevista-com-o-diretor-do-worldwide-studios-da-playstation/">Hermen
-                                    Hulst</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="caixa">
-                    <h2>NewsLetter</h2>
-                    <div class="caixa-conteudo">
-                        <form>
-                            <div>
-                                <label for="email">E-mail:</label>
-                                <input type="text" name="email" id="email" placeholder="E-mail">
-                            </div>
-                            <div>
-                                <input class="submit" type="submit" value="Cadastrar">
-                            </div>
-                        </form>
-                    </div>
-                </div>
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Apple.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple
+                    car</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple</a>
+              </div>
             </div>
-            <!-- fim lateral-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/NASA1.png" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/">Segurança
+                    precária</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/">NASA</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Apple.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple
+                    car</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/NASA1.png" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/">Segurança
+                    precária</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/">NASA</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Planetas.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">A
+                    origem dos planetas</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">Astronomia</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/covid.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Recorde
+                    de mortes</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Covid-19</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Planetas.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">A
+                    origem dos planetas</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">Astronomia</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/covid.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Recorde
+                    de mortes</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Covid-19</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Planetas.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">A
+                    origem dos planetas</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/carros-e-tecnologia/apple-negocia-parceria-coreana-para-desenvolver-apple-car/">Astronomia</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-app wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/covid.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Recorde
+                    de mortes</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/coronavirus/fake-news-diz-que-cdc-considerou-teste-pcr-de-covid-19-ineficaz/">Covid-19</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Apple.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple
+                    car</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/NASA1.png" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/">Segurança
+                    precária</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/ex-engenheiro-da-nasa-acusa-a-agencia-de-usar-seguranca-precaria/">NASA</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 noticias-item filter-card wow fadeInUp">
+            <div class="noticias-wrap">
+              <figure>
+                <img src="img/Noticias/Apple.jpg" class="img-fluid" alt="">
+                <a href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/"
+                  class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="noticias-info">
+                <h4><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple
+                    car</a></h4>
+                <p><a
+                    href="https://olhardigital.com.br/2021/08/09/ciencia-e-espaco/pesquisa-quer-entender-origem-e-evolucao-dos-planetas-da-via-lactea/">Apple</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section><!-- #noticias -->
+
+    <!--==========================
+      Contato
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contato</h3>
+          <p id="pAumentar">Para mais informações entre em contato!</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-6">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Telefone</h3>
+              <p><a href="#">+12 1234-45678</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>E-mail</h3>
+              <p id="pAumentar"><a href="mailto:marianajantunes97@gmail.com">marianajantunes97@gmail.com</a></p>
+            </div>
+          </div>
 
         </div>
-        <!-- Fim conteúdo -->
+      </div>
+    </section><!-- #contato -->
 
-    </div>
-    <!-- fim cointaner -->
+    <!--==========================
+       Comentarios dos leitores
+    ============================-->
+    <section id="comentarios" class="section-bg wow fadeInUp">
+      <div class="container">
 
-    <div id="container-rodape" style="clear: both;">
-        <div id="rodape">
-            &copy; Copyright 2019 - 2021 TI News
+        <header class="section-header">
+          <h3>Comentários dos leitores</h3>
+        </header>
+
+        <div class="owl-carousel comentarios-carousel">
+
+          <div class="testimonial-item">
+            <img src="img/Leitores/User.png" class="testimonial-img" alt="">
+            <h3>João Santos</h3>
+            <h4>Usuário Premium</h4>
+            <pid="pAumentar">
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Ótimo site de notícias, sempre me mantenho informado.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/Leitores/User.png" class="testimonial-img" alt="">
+            <h3>Maria Camargo</h3>
+            <h4>Usuário</h4>
+            <p id="pAumentar">
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Leio todos os dias as noticias internacionais! São sempre impecáveis.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/Leitores/User.png" class="testimonial-img" alt="">
+            <h3>Vanessa Araújo</h3>
+            <h4>Usuário</h4>
+            <p id="pAumentar">
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Sempre pontuais em conteúdos inovadores!
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
         </div>
-    </div>
+
+      </div>
+    </section><!-- #comentarios -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 footer-info">
+            <h3><a href="#intro" class="scrollto"><img src="img/TI-NewsLogo2.png" alt="" title="" /></a></h3>
+            <p>O site TI News é um site de notícias do mundo da tecnologia.</p>
+            <br>
+            <div class="social-links">
+              <p>Meu Linkedin:</p>
+              <a href="https://www.linkedin.com/in/mariana-antunes-2a5107191/" class="linkedin"><i
+                  class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 footer-links">
+            <h4>Links da página</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#entrevistas">Entrevistas</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#noticias">Notícias</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong>TI News</strong>. Todos os direitos reservados
+        </div>
+      </div>
+  </footer><!-- #footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+  <!-- Main Javascript  -->
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
